@@ -1,0 +1,35 @@
+"LOADING_RESOURCES" = "Loading Resources...";
+
+"FIND_FALCONE_TITLE" = "Where's Falcone?";
+"FIND_FALCONE_WAIT_TITLE" = "Wait a minute!";
+"FIND_FALCONE_WAIT_MESSAGE" = "You need to prepare all destinations before dispatching your troops";
+
+"FIND_FALCONE_HELP" = "In the distant distant galaxy of Tara B. After the recent war with neighbouring planet Falicornia, King Shan has exiled the Queen of Falicornia for 15 years.\n\nQueen Al Falcone is now in hiding. But if King Shan can find her before the years are up, she will be exiled for another 15 years...\n\nCan you help King Shan find Queen Al Falcone?";
+
+"ETA_X" = "ETA - %dhrs";
+"FIND_FALCONE_CTA" = "Find Falcone";
+
+"SOMETHING_WENT_WRONG" = "Something went wrong!";
+"PLANET_UNAVAILABLE" = "Unable to choose planet";
+"VEHICLE_UNAVAILABLE" = "Unable to choose vehicle";
+
+"FIND_FALCONE_RESULT_WAIT" = "Please wait! Your troops are currently busy...";
+"FIND_FALCONE_RESULT_SUCCESS_X" = "%@\n\n🦹‍♀️ Queen Al Falcone found hiding on this planet.\n\n🤴 King Shan is mightly pleased, & will exile her for another 15 years.";
+"FIND_FALCONE_RESULT_FAIL" = "Ouch! Hard Luck!\n\nYour troops were not able to find Queen Al Falcone of Falicornia.\n🦹‍♀️";
+
+"START_AGAIN" = "Start Again";
+
+"DESTINATION" = "Destination";
+"DESTINATION_X" = "Destination %d";
+
+"SELECT_PLANET" = "Select Planet";
+"SELECT_VEHICLE" = "Select Vehicle";
+
+"DISTANCE" = "Distance";
+"RANGE" = "Range";
+"SPEED" = "Speed";
+"COUNT" = "Count";
+
+"DISTANCE_X" = "%dMmi";
+"SPEED_X" = "%dMmi/hr";
+"VEHICLE_STATS_X" = "%dMmi | %dMmi/hr";

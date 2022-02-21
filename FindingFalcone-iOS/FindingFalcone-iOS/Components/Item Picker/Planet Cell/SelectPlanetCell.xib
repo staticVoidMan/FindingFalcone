@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SelectPlanetCell" customModule="FindingFalcone_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="178" height="124"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="178" height="124"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdg-so-SY0">
+                        <rect key="frame" x="0.0" y="0.0" width="178" height="124"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="planet_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="NkN-B7-dsG">
+                                <rect key="frame" x="0.0" y="4" width="178" height="69.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planet Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgy-Dj-nCn">
+                                <rect key="frame" x="4" y="77.5" width="170" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="p7I-N7-Gmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="Distance" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="VMX-QW-FIe">
+                                <rect key="frame" x="4" y="105.5" width="83" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" text="999Mmi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="E7T-Hk-upO">
+                                <rect key="frame" x="91" y="105.5" width="83" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="primary"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="E7T-Hk-upO" secondAttribute="trailing" constant="4" id="23q-Aa-UCf"/>
+                            <constraint firstItem="E7T-Hk-upO" firstAttribute="bottom" secondItem="VMX-QW-FIe" secondAttribute="bottom" id="3s5-bH-41V"/>
+                            <constraint firstItem="Lgy-Dj-nCn" firstAttribute="leading" secondItem="tdg-so-SY0" secondAttribute="leading" constant="4" id="4xs-OX-2Bz"/>
+                            <constraint firstAttribute="trailing" secondItem="NkN-B7-dsG" secondAttribute="trailing" id="AMS-hS-G5E"/>
+                            <constraint firstItem="E7T-Hk-upO" firstAttribute="top" secondItem="VMX-QW-FIe" secondAttribute="top" id="PiM-Yd-GER"/>
+                            <constraint firstItem="NkN-B7-dsG" firstAttribute="leading" secondItem="tdg-so-SY0" secondAttribute="leading" id="QC2-c1-9Ej"/>
+                            <constraint firstItem="Lgy-Dj-nCn" firstAttribute="top" secondItem="NkN-B7-dsG" secondAttribute="bottom" constant="4" id="QJh-hT-jCO"/>
+                            <constraint firstItem="E7T-Hk-upO" firstAttribute="leading" secondItem="VMX-QW-FIe" secondAttribute="trailing" constant="4" id="Rsx-JR-XUh"/>
+                            <constraint firstItem="E7T-Hk-upO" firstAttribute="width" secondItem="VMX-QW-FIe" secondAttribute="width" id="UPM-mG-7iX"/>
+                            <constraint firstAttribute="bottom" secondItem="VMX-QW-FIe" secondAttribute="bottom" constant="4" id="VIg-4T-psW"/>
+                            <constraint firstItem="NkN-B7-dsG" firstAttribute="top" secondItem="tdg-so-SY0" secondAttribute="top" constant="4" id="VhR-Vz-uji"/>
+                            <constraint firstItem="VMX-QW-FIe" firstAttribute="leading" secondItem="tdg-so-SY0" secondAttribute="leading" constant="4" id="kL0-GA-g9c"/>
+                            <constraint firstAttribute="trailing" secondItem="Lgy-Dj-nCn" secondAttribute="trailing" constant="4" id="yHU-xJ-TT5"/>
+                            <constraint firstItem="VMX-QW-FIe" firstAttribute="top" secondItem="Lgy-Dj-nCn" secondAttribute="bottom" constant="4" id="zpb-kb-MmF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="tdg-so-SY0" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cmE-UX-Qz1"/>
+                <constraint firstAttribute="trailing" secondItem="tdg-so-SY0" secondAttribute="trailing" id="fdX-od-RMU"/>
+                <constraint firstAttribute="bottom" secondItem="tdg-so-SY0" secondAttribute="bottom" id="rDQ-ad-Hbx"/>
+                <constraint firstItem="tdg-so-SY0" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zWm-bA-SYP"/>
+            </constraints>
+            <size key="customSize" width="178" height="211"/>
+            <connections>
+                <outlet property="containerView" destination="tdg-so-SY0" id="8g9-qy-Wf1"/>
+                <outlet property="distanceTitleLabel" destination="VMX-QW-FIe" id="ZZF-FY-fXZ"/>
+                <outlet property="distanceValueLabel" destination="E7T-Hk-upO" id="Wak-L9-WSb"/>
+                <outlet property="imageView" destination="NkN-B7-dsG" id="t13-qA-vB6"/>
+                <outlet property="nameValueLabel" destination="Lgy-Dj-nCn" id="mPk-w5-vGr"/>
+            </connections>
+            <point key="canvasLocation" x="224.63768115942031" y="150"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="planet_placeholder" width="271" height="273"/>
+        <namedColor name="primary">
+            <color red="0.10999999940395355" green="0.27099999785423279" blue="0.37599998712539673" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "vehicle-plceholder-new.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
